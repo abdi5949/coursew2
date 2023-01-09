@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+  }
+  .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Contact.jpg);
+    background-position: centre;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s;
+   
+  }
+  .container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  }
+  .field{
+    background-position: center;
+  }
+  .nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: right;
+  
+  
+  }
+  .nav img{
+      width: 150px;
+  }
+  .nav-links{
+      flex: 1;
+      text-align: right;
+  }
+  .nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 12px 16px;
+      position: relative;
+      background-color: transparent;
+  }
+  .nav-links ul li a{
+      color: #ffff;
+      text-decoration: none;
+      font-size: 13px;
+  }
+  .nav-links ul li::after{
+       content: '';
+       width: 0%;
+       height: 2px;
+       background: #f44336;
+       display: block;
+       margin: auto;
+       transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+      width: 100%;
+  }
+  .body {
+    background-image: scr("images/Contact.jpg");
+  }
+#image {
+width: 100%;
+}
+.boxText {
+display: flex;
+width: 100%;
+height: 200px;
+background-color: transparent;
+background-repeat: no-repeat;
+position: absolute;
+bottom: 0;
+text-align: center;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: transparent;
+background-repeat: no-repeat;
+}
+li{
+display: inline;
+}
+#contactForm {
+display: flex;
+margin: 10px;
+flex-direction: column;
+}
+input{
+
+margin: 5px;
+}
